@@ -14,7 +14,7 @@
 
 	var cambiarImagen = function () {
 	// de su elemento traeme su target
-	$target = $(this).data("target");
+	target = $(this).data("target");
 	mostrarImagen(target);
 	};
 
