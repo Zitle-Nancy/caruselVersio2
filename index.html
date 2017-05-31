@@ -3,32 +3,66 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Carousel con JS</title>
+	<link rel="stylesheet" type="text/css" href="./css/materialize.min.css">
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-	<div class="carousel">
-		<div data-slide="0" class="carousel-content active">
-			<img src="" alt="Imagen 1">
+	<header>
+		<nav class="cyan lighten-3">
+		    <div class="nav-wrapper">
+		      <p>Carusel</p>
+		    </div>
+		</nav>
+	</header>
+<!-- <div class="card-panel cyan lighten-3 tema">Carousel @Nancy Zitle Juarez</div> -->
+	<main>
+		<div class="container">
+		<div class="row">
+			<div class="col s8 offset-s2">
+				<div class="slider">
+					<div data-slide="0" class="carousel-content active item">
+						<img src="assets/img/1.jpg" alt="Imagen 1">
+					</div>
+					<div data-slide="1" class="carousel-content item">
+						<img src="assets/img/2.jpg" alt="Imagen 2">
+					</div>
+					<div data-slide="2" class="carousel-content item">
+						<img src="assets/img/3.jpg" alt="Imagen 3">
+					</div>
+					<div data-slide="3" class="carousel-content item">
+						<img src="assets/img/4.jpg" alt="Imagen 4">
+					</div>
+					<div data-slide="4" class="carousel-content item">
+						<img src="assets/img/5.jpg" alt="Imagen 4">
+					</div>
+					<div class="row">
+						<div class="offset-s2 col s8">
+							<div class="controls section-btn">
+								<a href="#" class="previous">&#60;</a>
+								<button type="button" data-target="0" class=" btn-floating btn-large waves-effect pink lighten-1 control">1</button>
+								<button type="button" data-target="1" class="btn-floating btn-large waves-effect blue lighten-2 control">2</button>
+								<button type="button" data-target="2" class="btn-floating btn-large waves-effect lime lighten-3 control">3</button>
+								<button type="button" data-target="3" class="btn-floating btn-large waves-effect light-green accent-2 control">4</button>
+								<button type="button" data-target="4" class="btn-floating btn-large waves-effect orange lighten-3 control">5</button>
+								<a href="#" class="next">&#62;</a>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div data-slide="1" class="carousel-content ">
-			<img src="" alt="Imagen 2">
 		</div>
-		<div data-slide="2" class="carousel-content ">
-			<img src="" alt="Imagen 3">
+	</main>
+
+   <footer class="page-footer">
+		<div class="footer-copyright">
+			<div class="container">
+				© Nancy Zitle Juarez
+			</div>
 		</div>
-		<div data-slide="3" class="carousel-content">
-			<img src="" alt="Imagen 4">
-		</div>
-	</div>
-	<div class="controls">
-		<a href="#" class="previous">&#60;</a>
-		<button type="button" data-target="0" class="control"></button>
-		<button type="button" data-target="1" class="control"></button>
-		<button type="button" data-target="2" class="control"></button>
-		<button type="button" data-target="3" class="control"></button>
-		<a href="#" class="next">&#62;</a>
-	</div>
+     </footer>
 	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script type="./js/materialize.min.js"></script>
 	<script src="./js/app.js"></script>
 </body>
 </html>
