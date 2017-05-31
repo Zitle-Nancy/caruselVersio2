@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# carousel-demo
-Carousel with HTML, CSS and JS
-=======
-# caruselVersio2
-creación de carusel con jQuery
->>>>>>> 8312706fa2a6b73836e995d34cbe4d292e7d2c4d
+#Ejercicio para la creacion de un carousel con jQuery
+
+*Item El objetivo comprender como "traduccir" un codigo de javaScript con jQuery.
+
+*Item Poner en practica los conocimientos de diseño que he obtenido y el uso de framwork.
