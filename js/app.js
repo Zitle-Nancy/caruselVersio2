@@ -1,5 +1,5 @@
- var target = 0;
- var cargarPagina = function(){
+var target = 0;
+var cargarPagina = function(){
 	// alert('cargando la pagina');
 	// Elementos
 	var botones = $(".control");
@@ -11,7 +11,6 @@
 	anterior.click(anteriorImagen);
 	siguiente.click(siguienteImagen);
 }
-
 	var cambiarImagen = function () {
 	// de su elemento traeme su target
 	target = $(this).data("target");
@@ -39,10 +38,7 @@
 		mostrarImagen(target);
 	};
 
-
-
-
+// setInterval ver que onda
 jQuery(document).ready(cargarPagina);
 
 
-// window.addEventListener("load", cargarPagina);
